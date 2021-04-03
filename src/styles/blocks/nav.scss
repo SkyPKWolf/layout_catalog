@@ -27,10 +27,11 @@
     color: #000;
     text-transform: uppercase;
     text-decoration: none;
-  }
+    transition-duration: $transition-time;
 
-  &__link:hover {
-    color: $light-blue-color;
+    &:hover {
+      color: $light-blue-color;
+    }
   }
 }
 

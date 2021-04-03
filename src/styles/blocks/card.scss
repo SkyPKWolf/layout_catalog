@@ -5,15 +5,26 @@
 
   width: 200px;
   padding: 14px;
-  padding-top: 20px;
 
-  border: 1px solid #f3f3f3;
+  border: 1px solid $border-color;
   border-radius: 5px;
 
   &__image {
     width: 160px;
     height: 134px;
-    margin: 9px auto 45px;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    align-self: center;
+    transition: transform $transition-time;
+
+    &:hover {
+      box-sizing: initial;
+      border: 3px solid $border-color;
+      transform: scale(1.2);
+      padding: 15px 0;
+      margin-top: 0;
+      margin-bottom: 24px;
+    }
   }
 
   &__content-text {
@@ -55,11 +66,11 @@
     color: #fff;
     background-color: $light-blue-color;
     border-radius: 5px;
-  }
-
-  &__button:hover {
-    color: $light-blue-color;
-    background-color: #fff;
+    transition-duration: $transition-time;
+    &:hover {
+      color: $light-blue-color;
+      background-color: #fff;
+    }
   }
 
   &__value-of-price {
