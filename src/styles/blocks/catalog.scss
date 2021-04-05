@@ -1,11 +1,12 @@
 .catalog {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  min-width: 1024px;
+  width: $width-catalog;
+  padding: 50px $side-pading-catalog;
+  gap: $gap-card;
 
   &__card {
-    margin: 0 24px;
     margin-bottom: 50px;
   }
 }

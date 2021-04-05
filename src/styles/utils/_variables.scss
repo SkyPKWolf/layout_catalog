@@ -1,1 +1,11 @@
 $light-blue-color: #00acdc;
+$border-color: #f3f3f3;
+$page-color: #fff;
+$transition-time: 400ms;
+$count-card: 4;
+$width-card: 200px;
+$gap-card: 48;
+$side-pading-catalog: 40px;
+$width-catalog:
+  ($width-card * $count-card) +
+  ($gap-card * ($count-card - 1)) +($side-pading-catalog * 2);
