@@ -8,7 +8,7 @@
   }
 
   &__star {
-    @include square(15px);
+    @include rectangle-container(15px);
     margin-right: 4px;
     background-image: url(../images/star.svg);
     background-repeat: no-repeat;

@@ -11,27 +11,27 @@
 
   &__image {
     box-sizing: initial;
+    align-self: center;
     width: 160px;
     height: 134px;
+    border: 3px solid $page-color;
     margin-top: 15px;
     margin-bottom: 45px;
-    align-self: center;
-    border: 3px solid $page-color;
     transition: transform $transition-time;
 
     &:hover {
       border: 3px solid $border-color;
-      transform: scale(1.2);
       padding: 15px 0;
       margin-top: 0;
       margin-bottom: 30px;
+      transform: scale(1.2);
     }
   }
 
   &__content-text {
+    margin-bottom: 6px;
     @extend %text-medium;
     line-height: 15px;
-    margin-bottom: 6px;
   }
 
   &__code {
