@@ -15,13 +15,13 @@
     width: 160px;
     height: 134px;
     border: 3px solid $page-color;
-    margin-top: 15px;
-    margin-bottom: 45px;
+    margin-top: 12px;
+    margin-bottom: 42px;
     transition: transform $transition-time;
 
     &:hover {
       border: 3px solid $border-color;
-      padding: 15px 0;
+      padding: 12px 0;
       margin-top: 0;
       margin-bottom: 30px;
       transform: scale(1.2);
