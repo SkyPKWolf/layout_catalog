@@ -1,4 +1,4 @@
-@mixin square ($size) {
+@mixin rectangle-container ($size) {
   height: $size;
   width: $size;
 }

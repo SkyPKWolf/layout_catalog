@@ -1,11 +1,8 @@
 .catalog {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  min-width: 1024px;
-
-  &__card {
-    margin: 0 24px;
-    margin-bottom: 50px;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, $width-card);
+  width: $width-catalog;
+  padding: $vertical-gap $side-pading-catalog;
+  row-gap: $vertical-gap;
+  column-gap: $gap-card;
 }
